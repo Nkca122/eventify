@@ -2,6 +2,8 @@ import EventDisplay, { EventDisplaySkeleton } from "@/components/event-display";
 import Image from "next/image";
 import { Suspense } from "react";
 
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   return (
     <>
