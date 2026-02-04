@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { getEvents } from "@/lib/events/actions";
 import { IEvent } from "@/lib/schemas/event";
 import {
