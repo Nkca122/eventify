@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Suspense } from "react";
 
 export const dynamic = 'force-dynamic';
+export const revalidate = 120;
 
 export default async function Home() {
   return (
