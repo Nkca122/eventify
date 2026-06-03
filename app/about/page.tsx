@@ -68,7 +68,7 @@ export default function About() {
             {/* Image card */}
             <div className="relative overflow-hidden rounded-2xl shadow-xl border">
               <Image
-                src="/logo.jpg"
+                src="/grey_penguin.webp"
                 alt="Nikunj Chauhan"
                 width={500}
                 height={500}
